@@ -1,5 +1,6 @@
 = Demo ！
 
-tags: demo
+:hp-tags: hubpress demo
+:hp-alt-title: 中文标题
 
 Welcome, you are in hubpress.
