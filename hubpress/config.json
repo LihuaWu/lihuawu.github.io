@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "LihuaWu",
-    "repositoryName": "lihuawu.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"LihuaWu","repositoryName":"lihuawu.github.io","branch":"master"},"site":{"title":"Will's blog","description":"where there is a will, there is a way!","logo":"https://www.google.co.uk/imgres?imgurl=http://www.gizmoids.com/wp-content/uploads/2015/11/new-google-logo1.jpg&imgrefurl=http://www.gizmoids.com/2015/12/voice-commands-to-control-your-phone-with-google-now/&h=1101&w=2000&tbnid=X7xjeZXdu1QTTM:&docid=T-c0vhjXHKx-IM&hl=zh-CN&ei=RfDcVqGtKuLWmAWCkZSgBQ&tbm=isch&ved=0ahUKEwjh442KzK3LAhViK6YKHYIIBVQQMwglKAEwAQ","cover":"https://www.google.co.uk/imgres?imgurl=http://www.gizmoids.com/wp-content/uploads/2015/11/new-google-logo1.jpg&imgrefurl=http://www.gizmoids.com/2015/12/voice-commands-to-control-your-phone-with-google-now/&h=1101&w=2000&tbnid=X7xjeZXdu1QTTM:&docid=T-c0vhjXHKx-IM&hl=zh-CN&ei=RfDcVqGtKuLWmAWCkZSgBQ&tbm=isch&ved=0ahUKEwjh442KzK3LAhViK6YKHYIIBVQQMwglKAEwAQ","postsPerPage":"20","url":"https://LihuaWu.github.io"},"socialnetwork":{"email":"wulihua0@gmail.com"},"theme":{"name":"Casper","url":"//LihuaWu.github.io/themes/Casper"}}
