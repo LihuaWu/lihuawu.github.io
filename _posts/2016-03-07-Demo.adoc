@@ -1,3 +1,5 @@
 = Demo ！
 
+tags: demo
+
 Welcome, you are in hubpress.
