@@ -1,0 +1,7 @@
+= 匿名namespace的正确使用
+:hp-tags: c++, namespace
+
+> 最近在工作中使用匿名namespace时遇到一些问题，后来通过查找wiki, 找到了规避的办法。本想写一篇文章总结一下，无意中发现一篇文章比我的总结更加完整。以下为原文链接。
+
+
+http://blog.csdn.net/Solstice/article/details/6186978  
