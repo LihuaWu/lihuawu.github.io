@@ -3,3 +3,6 @@
 
 == template的基本技术
 
+1. template为何不支持迭代？
+
+2. 使用template来表示 OO design的技术基础是什么？
