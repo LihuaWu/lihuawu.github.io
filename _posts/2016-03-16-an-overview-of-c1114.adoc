@@ -1,3 +1,109 @@
 = 漫谈c++11/14 
+:hp-tags: c++11,c++14,c++
 :hp-alt-title: an overview of c++11/14
-:hp-tags:c++11,c++14,c++
+
+> c++11的目标是更简洁、易用、后向兼容、高性能、stl库、接口更加简洁
+
+== 1. simpler language changes
+
+====== 1. auto, decltype, trailing return type.
+
+*auto vs decltype*
+
+*auto* employs template type deduction rules discards reference, c-v quailifiers from return type.
+
+*decltype* return actual type.
+
+  template <typename T, typename U>
+     auto product(const T& t, const U &u) ->decltype( t * u) {
+    return t * u;
+ }
+
+====== 2. nullptr
+
+Does 0 refer to an int or a pointer?
+
+====== 3. range-for
+====== 4. >> in template specificalizations
+====== 5. static_assert
+ assert is for expressing run-time invariants, and static_assert is used for compile-time invariant validation and diagnosis.
+
+====== 6. extern template
+
+====== 7. noexcept
+====== 8. variadic templates
+====== 9. constexpr, template alias and more
+
+== 2. new facilities for class design
+Generated functions: default/delete
+Override control: override/final
+final classes
+
+Delegating constructors
+
+Inheriting constructors
+
+using Base::name;
+
+Increased flexibility for in-class initializers. 
+any non-static data member can be initialized in its declaration.
+
+Explicit conversion operators
+
+== 3. larger  language features
+
++ Initialization.
++ Initializer lists
++ Uniform initialization
++ Prevention of narrowing
+
+Lambdas
+Rvalue references, move semantics universal references and perfect forwarding
+
+	
+
+== 4. more advanced features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
