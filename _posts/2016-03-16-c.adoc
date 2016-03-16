@@ -6,3 +6,11 @@
 1. template为何不支持迭代？
 
 2. 使用template来表示 OO design的技术基础是什么？
+
+3. STL中广泛使用的traits技术是指什么？
+
+4. 在c++11中如何实现并优化typelists? 
+
+== template的应用
+
+==== 1. 实现一个小型内存分配器
