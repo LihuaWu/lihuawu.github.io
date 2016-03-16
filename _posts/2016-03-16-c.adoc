@@ -1,0 +1,5 @@
+= c++中的模板技术
+:hp-tags: c++, template,模板，元编程
+
+== template的基本技术
+
