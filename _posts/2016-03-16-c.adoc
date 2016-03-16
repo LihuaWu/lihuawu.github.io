@@ -13,9 +13,17 @@
 
 == template的应用
 
-==== 1. 实现一个小型内存分配器
+==== 1. 实现一个小型内存分配器(Small Object Allocator)
 
 STL中默认实现的分配器备受诟病，原因可能是
 
   1. 它只是c heap配置器(malloc/realloc/free)的浅层封装，并未特别针对小块内存的配置进行优化。
   2. 开销巨大，对于使用new分配的内存，其管理开销为4-32B,如果配置1MB的区块，则开销相对微不足道（0.4-3%）。
+  
+===== 具体实现要点
+
+1. 需要将区块数量限制在unsigned char的大小。否则的话，(假定配置为unsigned short)
+	1. 我们无法配置小于sizeof(unsigned short)的区块。
+   2. 我们会遇到内存对齐（alignment）问题。
+   
+
