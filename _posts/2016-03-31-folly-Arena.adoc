@@ -1,0 +1,8 @@
+= folly库学习之Arena
+
+> Arena主要完成内存分配的功能
+
+arena 提供两个接口
+void *allocate(size_t size);
+void *deallocate(void *ptr);
+与stl标准兼容
