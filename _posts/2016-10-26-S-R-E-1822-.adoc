@@ -33,7 +33,7 @@
 
 ### auxon 架构图
 
-![auxon components](auxon_components.png)
+![auxon components](https://raw.githubusercontent.com/LihuaWu/lihuawu.github.io/master/images/auxon_components.png)
 
 主要包含以下内容：
 
