@@ -32,8 +32,7 @@
 ##  Auxon Google的容量规划和资源分配解决方案
 
 ### auxon 架构图
-
-![auxon components](https://raw.githubusercontent.com/LihuaWu/lihuawu.github.io/master/images/auxon_components.png)
+image::<auxon_components.png>[]
 
 主要包含以下内容：
 
