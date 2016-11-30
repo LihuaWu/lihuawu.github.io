@@ -1,0 +1,5 @@
+# golang http包理解
+
+
+
+https://serholiu.com/go-http-client-keepalive
